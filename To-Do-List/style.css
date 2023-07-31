@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(95deg, rgb(84, 3, 79),rgb(141, 139, 139), rgb(255, 126, 242));
+    background-size: 100% 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    max-width: 440px;
+    margin: 30px auto;
+    background-color: #fefefe;
+    padding: 20px;
+    word-wrap: break-word;
+    box-shadow: 3px 6px 5px 0px black;
+    margin-bottom: 100%;
+    border-radius: 7px;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    margin-top: 20px;
+}
+
+#task_input{
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px 0 5px 5px;
+    border: solid 1px #ababab;
+}
+
+.boton{
+    background-color: rgb(2, 127, 190);
+    border-radius: 0 5px 5px 0;
+    color: white;
+    cursor: pointer;
+}
+
+.borrar{
+    background-color: rgb(2, 127, 190);
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #cac;
+    transition: 0.5s;
+}
+
+li:hover {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.infoHora{
+    margin-left: 90%;
+}
